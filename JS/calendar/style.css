@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'MuseoModerno', cursive;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.calendar
+{
+    position: relative;
+    background: whitesmoke;
+    text-align: center;
+    width: 200px;
+    border-radius: 8px;
+    overflow: hidden;
+    -webkit-box-reflect: below 1px linear-gradient(
+        transparent,transparent,#0004
+    );
+
+}
+
+.calendar #monthName
+{
+    position: relative;
+    background: red;
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 5px 10px;
+}
+
+.calendar #dayName
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    color: brown;
+}
+
+.calendar #dayNumber
+{
+    font-size: 90px;
+    font-weight: 1500;
+    color: black;
+}
+
+.calendar #year
+{
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 20px;
+    color: brown;
+}
